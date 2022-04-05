@@ -48,8 +48,6 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.btnMostrarTexto = new System.Windows.Forms.Button();
             this.btnEliminarTextoOculto = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.Barra = new System.Windows.Forms.Panel();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
@@ -115,12 +113,12 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(115, 383);
+            this.textBox1.Location = new System.Drawing.Point(115, 349);
             this.textBox1.MaxLength = 500;
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(473, 90);
+            this.textBox1.Size = new System.Drawing.Size(473, 79);
             this.textBox1.TabIndex = 5;
             // 
             // btnGuardarImagen
@@ -143,7 +141,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Orbitron", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(171, 360);
+            this.label1.Location = new System.Drawing.Point(171, 326);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 14);
             this.label1.TabIndex = 8;
@@ -154,7 +152,7 @@
             this.lblEstadoTexto.AutoSize = true;
             this.lblEstadoTexto.Font = new System.Drawing.Font("Orbitron", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstadoTexto.ForeColor = System.Drawing.Color.Lime;
-            this.lblEstadoTexto.Location = new System.Drawing.Point(218, 360);
+            this.lblEstadoTexto.Location = new System.Drawing.Point(218, 326);
             this.lblEstadoTexto.Name = "lblEstadoTexto";
             this.lblEstadoTexto.Size = new System.Drawing.Size(147, 14);
             this.lblEstadoTexto.TabIndex = 9;
@@ -238,7 +236,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Esteganografia.Properties.Resources.caja;
-            this.pictureBox4.Location = new System.Drawing.Point(4, 88);
+            this.pictureBox4.Location = new System.Drawing.Point(4, 124);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(100, 56);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -249,7 +247,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Orbitron", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.ForeColor = System.Drawing.Color.Orange;
             this.label3.Location = new System.Drawing.Point(7, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 54);
@@ -259,12 +257,13 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Esteganografia.Properties.Resources.gomaborrar;
-            this.pictureBox6.Location = new System.Drawing.Point(4, 275);
+            this.pictureBox6.Location = new System.Drawing.Point(4, 293);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(100, 56);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 13;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Visible = false;
             // 
             // btnAbrirImagen
             // 
@@ -272,7 +271,7 @@
             this.btnAbrirImagen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAbrirImagen.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAbrirImagen.Font = new System.Drawing.Font("Orbitron", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbrirImagen.Location = new System.Drawing.Point(4, 150);
+            this.btnAbrirImagen.Location = new System.Drawing.Point(4, 186);
             this.btnAbrirImagen.Name = "btnAbrirImagen";
             this.btnAbrirImagen.Size = new System.Drawing.Size(96, 22);
             this.btnAbrirImagen.TabIndex = 0;
@@ -283,7 +282,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Esteganografia.Properties.Resources.ojover;
-            this.pictureBox7.Location = new System.Drawing.Point(4, 180);
+            this.pictureBox7.Location = new System.Drawing.Point(4, 216);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(100, 56);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -297,7 +296,7 @@
             this.btnMostrarTexto.Enabled = false;
             this.btnMostrarTexto.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMostrarTexto.Font = new System.Drawing.Font("Orbitron", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMostrarTexto.Location = new System.Drawing.Point(4, 242);
+            this.btnMostrarTexto.Location = new System.Drawing.Point(4, 278);
             this.btnMostrarTexto.Name = "btnMostrarTexto";
             this.btnMostrarTexto.Size = new System.Drawing.Size(96, 24);
             this.btnMostrarTexto.TabIndex = 2;
@@ -312,35 +311,14 @@
             this.btnEliminarTextoOculto.Enabled = false;
             this.btnEliminarTextoOculto.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEliminarTextoOculto.Font = new System.Drawing.Font("Orbitron", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminarTextoOculto.Location = new System.Drawing.Point(4, 337);
+            this.btnEliminarTextoOculto.Location = new System.Drawing.Point(4, 355);
             this.btnEliminarTextoOculto.Name = "btnEliminarTextoOculto";
             this.btnEliminarTextoOculto.Size = new System.Drawing.Size(96, 42);
             this.btnEliminarTextoOculto.TabIndex = 7;
             this.btnEliminarTextoOculto.Text = "Eliminar Texto Oculto de La Imagen";
             this.btnEliminarTextoOculto.UseVisualStyleBackColor = false;
+            this.btnEliminarTextoOculto.Visible = false;
             this.btnEliminarTextoOculto.Click += new System.EventHandler(this.btnEliminarTextoOculto_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Orbitron", 5.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Yellow;
-            this.label4.Location = new System.Drawing.Point(3, 452);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(113, 20);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "A7D22B68F848D3CD\r\nC8D929F82111CF17";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Orbitron", 5.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Yellow;
-            this.label5.Location = new System.Drawing.Point(590, 452);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(109, 20);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "EDC44391D23634C5\r\n7E3E3B1B2A50B7AB";
             // 
             // label6
             // 
@@ -431,7 +409,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::Esteganografia.Properties.Resources.bloc;
-            this.pictureBox8.Location = new System.Drawing.Point(139, 353);
+            this.pictureBox8.Location = new System.Drawing.Point(139, 319);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(28, 28);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -445,7 +423,7 @@
             this.pictureBox1.InitialImage = global::Esteganografia.Properties.Resources.pregunta;
             this.pictureBox1.Location = new System.Drawing.Point(115, 53);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(473, 297);
+            this.pictureBox1.Size = new System.Drawing.Size(473, 265);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -455,13 +433,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(701, 477);
+            this.ClientSize = new System.Drawing.Size(701, 435);
             this.Controls.Add(this.Barra);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblEstadoTexto);
@@ -517,9 +493,7 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Button btnMostrarTexto;
         private System.Windows.Forms.Button btnEliminarTextoOculto;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Panel Barra;

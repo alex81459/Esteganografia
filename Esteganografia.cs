@@ -97,7 +97,7 @@ namespace Esteganografia
                                         R += valorCaracter % 2;
 
                                         // elimina el bit más a la derecha del caracter
-                                        // para que e la próxima vez podamos llegar al siguiente
+                                        // para que la próxima vez podamos llegar al siguiente
                                         valorCaracter /= 2;
                                     }
                                 }
@@ -130,7 +130,7 @@ namespace Esteganografia
 
                         if (status == Estado.Relleno_Con_Ceros)
                         {
-                            //incrementar el valor de los ceros hasta que sea 8
+                            //incrementar el valor de los ceros hasta que sea 8, para la cantidad de byts
                             ceros++;
                         }
                     }
@@ -219,7 +219,6 @@ namespace Esteganografia
 
                 n /= 2;
             }
-
             return Resultado;
         }
     }

@@ -48,3 +48,9 @@ D:\Tecnico\Programaciones\Muni Programas\Esteganografia2.1 Con Cifrado\Esteganog
 D:\Tecnico\Programaciones\Muni Programas\Esteganografia2.1 Con Cifrado\Esteganografia2.1\Esteganografia\obj\Debug\Esteganografia.csproj.GenerateResource.Cache
 D:\Tecnico\Programaciones\Muni Programas\Esteganografia2.1 Con Cifrado\Esteganografia2.1\Esteganografia\obj\Debug\Esteganografia.exe
 D:\Tecnico\Programaciones\Muni Programas\Esteganografia2.1 Con Cifrado\Esteganografia2.1\Esteganografia\obj\Debug\Esteganografia.pdb
+D:\Tecnico\Programaciones\Muni Programas\Esteganografia2.1 Con Cifrado\Esteganografia2.1\Esteganografia\bin\Debug\Esteganografia.exe.manifest
+D:\Tecnico\Programaciones\Muni Programas\Esteganografia2.1 Con Cifrado\Esteganografia2.1\Esteganografia\bin\Debug\Esteganografia.application
+D:\Tecnico\Programaciones\Muni Programas\Esteganografia2.1 Con Cifrado\Esteganografia2.1\Esteganografia\obj\Debug\Esteganografia.exe.manifest
+D:\Tecnico\Programaciones\Muni Programas\Esteganografia2.1 Con Cifrado\Esteganografia2.1\Esteganografia\obj\Debug\Esteganografia.application
+D:\Tecnico\Programaciones\Muni Programas\Esteganografia2.1 Con Cifrado\Esteganografia2.1\Esteganografia\bin\Debug\Esteganografia.exe.CodeAnalysisLog.xml
+D:\Tecnico\Programaciones\Muni Programas\Esteganografia2.1 Con Cifrado\Esteganografia2.1\Esteganografia\bin\Debug\Esteganografia.exe.lastcodeanalysissucceeded

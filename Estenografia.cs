@@ -159,7 +159,9 @@ namespace Esteganografia
 
         private void btnEliminarTextoOculto_Click(object sender, EventArgs e)
         {
-            try
+            //Falla al intentar eliminar el texto oculto dentro de la imagen, sera reparado en algun futuro
+            //por el momento se podra abrir la imagen y mostrar el texto
+            /*try
             {
                 bmp = (Bitmap)pictureBox1.Image;
                 string text = textBox1.Text;
@@ -182,7 +184,7 @@ namespace Esteganografia
             catch (Exception)
             {
                 MessageBox.Show("Error al Intentar Guardar la Imagen con el Texto Oculto Borrado", "Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
-            }
+            }*/
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
@@ -213,7 +215,5 @@ namespace Esteganografia
                 this.Location = new Point((this.Left + e.X - posicion.X),(this.Top + e.Y - posicion.Y));
             }
         }
-
-
     }
 }
